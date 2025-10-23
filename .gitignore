@@ -1,0 +1,70 @@
+# -------------------------
+# Python Cache & Bytecode
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# VSCode Settings
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Environment & Credentials
+.env
+*.env
+*.ini
+*.cfg
+*.toml
+secrets.json
+kaggle.json
+.kaggle/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+logs/
+*.log
+
+# Reports & Generated Files
+reports/*.csv
+reports/*.png
+reports/*.md
+
+# Data Files (optional - keep original CSV?)
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Model Files
+models/
+*.joblib
+*.pkl
+*.h5
+
+# PyCharm
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
